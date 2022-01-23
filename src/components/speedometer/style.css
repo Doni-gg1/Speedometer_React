@@ -1,0 +1,91 @@
+#rotate_180{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 200px;    
+    border-left: 20px solid rgba(255, 255, 255, 0);
+    border-right: 20px solid rgb(144, 140, 140);
+    border-top: 20px solid rgba(255, 255, 255, 0);
+    border-bottom: 20px solid rgb(144, 140, 140);
+    border-radius: 50%;
+    margin: 20px;
+    /* transform: rotate(-135deg); */
+    /* border: 2px solid; */
+}
+svg{
+    /* transform: rotate(90deg); */
+    transform-origin: bottom center;
+    position: absolute;
+    left: 28%;
+    top: 24%;
+    transition: 1s;
+}
+.block{
+    position: relative;
+}
+h1{
+    position: absolute;
+    top: 55%;
+    left: 40%;  
+    font-size: 25px;
+}
+
+#first{
+  fill: green;
+    top: 19.8%;
+    left: 1.7%;
+  }
+  #second{
+    fill: yellow;
+    top: 7.9%;
+    left: 15.7%;
+  }
+  #third{
+    fill: orange;
+    top: 7.9%;
+    left: 45.7%;
+  }
+  #fourth{
+    fill: red;
+    top: 19.8%;
+    left: 69.3%;
+  }
+  .speedometer{
+    position: relative;
+      width: 500px;
+      height: 500px;
+  }
+  .progress{
+    position: absolute;
+    top: 3%;
+    transform-origin: 50% 99%;
+    /* transform: rotate(9deg); */
+    left: -2.3%;
+      /*border: 1px solid;*/
+  }
+  .borders{
+      left: 15.5%;
+      top: 8%;
+  }
+  .borders_2{
+      left: 1.7%;
+      top: 51.2%;
+  }
+  #mid{
+      display: flex;
+      justify-content: center;
+      position: absolute;
+      left: 26%;
+      top: 26%;
+  }
+  #mid h3{
+      /*border: 1px solid red;*/
+      height: 250px;
+      transform-origin: bottom center;
+      /*width: 25px;*/
+      position: absolute;
+  }
+
+

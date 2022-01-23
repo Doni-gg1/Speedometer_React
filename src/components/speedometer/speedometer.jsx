@@ -152,13 +152,13 @@ function Speedometer({ randomCount, changeNum, maxSpeed, speedsNumCount }) {
             <path d="M0.5 0.5L24 1" stroke="black"/>
           </svg>
 
+          <div id="mid"></div>
           <div>
             <Arrow setProgressDeg={setProgressDeg} arrowDeg={arrowDeg} value={value} maxSpeed={maxSpeed} />
             <h1>{value}</h1>
           </div>
         </div>
       </div>
-      <div id="mid"></div>
     </div>
   );
 }
